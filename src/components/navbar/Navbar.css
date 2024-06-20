@@ -1,0 +1,22 @@
+.navbar {
+    background-color: white; /* White background color */
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    color: black !important; /* Black text color */
+    display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  }
+  
+
+.navbar-brand img {
+  margin-right: 10px;
+  /* Adjust margin as needed */
+}
+
+
+
+  

@@ -1,0 +1,163 @@
+/* Navbar adjustments */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-nav .btn-link {
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* Headline and Info Container */
+.headline-container {
+  background-color: #ffffff;
+  color: rgb(3, 83, 212);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 80px;
+  width: 100%; /* Full width */
+}
+
+.info-container {
+  background-color: #ffffff;
+  color: rgb(6, 95, 247);
+  padding: 2px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: center; /* Center the entire controls-container within its parent */
+  align-items: center; /* Vertically center the items within the controls-container */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.category-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add some space between the label and select box */
+}
+
+#category-select {
+  padding: 5px; /* Optional: Add some padding to the select box for better appearance */
+}
+
+.search-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Main Content */
+.mainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Miscellaneous */
+.alert {
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+/* News.css */
+
+/* General card styling */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px; /* Fixed height to ensure all cards are of the same height */
+  margin-bottom: 20px;
+}
+
+/* Styling for the image at the top of the card */
+.card-img-top {
+  height: 180px; /* Fixed height for uniform image size */
+  object-fit: cover; /* Ensure the image covers the entire area without distortion */
+  width: 100%; /* Ensure the image takes the full width of the card */
+}
+
+/* Ensuring the card body takes the remaining space */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 10px; /* Padding for visual spacing */
+}
+
+/* Title styling */
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Text styling, with flex-grow to push the buttons to the bottom */
+.card-text {
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+
+/* Button container at the bottom of the card */
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensure buttons are centered vertically within their container */
+  margin-top: auto; /* Pushes the buttons to the bottom of the card body */
+  gap: 10px; /* Space between the buttons */
+}
+
+/* Ensuring buttons are of equal size and positioned uniformly */
+.card-body .btn-primary,
+.card-body .btn-secondary {
+  flex: 1; /* Each button takes up equal space */
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  height: 40px; /* Uniform height */
+  padding: 0; /* Remove default padding */
+  border: none; /* Remove default border */
+  margin: 0 5px;
+}
+
+.card-body .btn-primary {
+  background-color: #007bff; 
+  margin: 0 5px;/* Bootstrap primary button color */
+}
+
+.card-body .btn-secondary {
+  background-color: #6c757d;
+  margin: 0 5px; /* Bootstrap secondary button color */
+}
+
